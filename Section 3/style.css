@@ -1,0 +1,8 @@
+/* @font-face{
+    font-family: VuVanCanh;
+    src: url('Kapakana-VariableFont_wght.ttf');
+} */
+@import url('https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&family=WDXL+Lubrifont+TC&display=swap');
+*{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}

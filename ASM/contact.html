@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Levents</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Levents</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="profile.html"><i class="fas fa-user"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <main class="contact-main">
+        <div class="contact-container">
+            <h2 class="contact-title">Contact us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 123 Đường Fashion, Quận 1, TP. HCM</p>
+                    <p><i class="fas fa-phone"></i>Phone Number: 0123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> Email: contact@levents.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="send-button">Send  message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                &copy; 2024 Levents. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>

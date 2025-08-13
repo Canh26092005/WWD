@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm - Levents</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Levents</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+               
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="profile.html"><i class="fas fa-user"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" id="logoutButton" style="display: none;"><i class="fas fa-sign-out-alt"></i></a>
+            </div>
+        </nav>
+    </div>
+</header>
+    <main class="products-main">
+        <section class="products-section">
+            <div class="container">
+                <h2 class="section-title">All products</h2>
+                <div class="product-grid" id="allProducts">
+                    <div class="product-card" data-id="1">
+                        <img src="Black_LTSBOCOA113UD0101SS25_1.webp" alt="Levents® Blank Boxy Tee" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Blank Boxy Tee</h3>
+                            <p class="product-price" data-price="250000">250.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="2">
+                        <img src="Navy_LCPSPCLU351UNAVNOSS25_2.webp" alt="Levents® Triple Star Classic Cap" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Triple Star Classic Cap</h3>
+                            <p class="product-price" data-price="480000">480.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="3">
+                        <img src="White_LTSBOCOA249UW0102SS25_1.webp" alt="Levents® Seasonal Long Sleeve Boxy Tee" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Seasonal Long Sleeve Boxy Tee</h3>
+                            <p class="product-price" data-price="600000">600.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="4">
+                        <img src="Black_LCHNOCOY347UD01NOSS25_1.webp" alt="Levents® Leather Card Holder" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Leather Card Holder</h3>
+                            <p class="product-price" data-price="450000">450.000₫</p>
+                            <button class="add-to-cart">TAdd to cart</button>
+                        </div>
+                    </div>
+                     <div class="product-card" data-id="5">
+                        <img src="Black_LPOSOCOC123UD0101SS25_1.webp" alt="Levents® Classic Triple Star Semi-Oversized Polo" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Classic Triple Star Semi-Oversized Polo</h3>
+                            <p class="product-price" data-price="420000">420.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="6">
+                        <img src="Black_LTASLCOL132UD0101SS25_1.webp" alt="Levents® Classic Triple Star Slimfit Tanktop" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Classic Triple Star Slimfit Tanktop</h3>
+                            <p class="product-price" data-price="390000">390.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="7">
+                        <img src="Blue_LSHBOCOB233UB0102FW24_1.webp" alt="Levents® Striped Boxy Long Sleeve Shirt" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Striped Boxy Long Sleeve Shirt</h3>
+                            <p class="product-price" data-price="550000">550.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="8">
+                        <img src="White_LTSOVCOA408UW0101SS25_1.webp" alt="Levents® Teddy Bear Oversized Tee" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Teddy Bear Oversized Tee</h3>
+                            <p class="product-price" data-price="450000">450.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="9">
+                        <img src="White_LTSOVCOA406UW0100SS25_1.webp" alt="Levents® Earth Day Oversized Tee/ White" class="product-image">
+                        <div class="product-details">
+                            <h3 class="product-name">Earth Day Oversized Tee/ White</h3>
+                            <p class="product-price" data-price="390000">390.000₫</p>
+                            <button class="add-to-cart">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                &copy; 2024 Levents. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="cart.js"></script>
+</body>
+</html>

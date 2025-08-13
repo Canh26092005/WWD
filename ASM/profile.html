@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ sơ của tôi - Levents</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+    <div class="container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Levents</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="profile.html"><i class="fas fa-user"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <main class="profile-main">
+        <div class="profile-container">
+            <h2 class="profile-title">My profile</h2>
+            <div class="profile-info">
+                <div class="info-item">
+                    <span class="info-label">User Name:</span>
+                    <span id="profileUsername" class="info-value"></span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Email:</span>
+                    <span id="profileEmail" class="info-value"></span>
+                </div>
+            </div>
+            <button id="logoutButtonProfile" class="logout-button">Logout</button>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom">
+                &copy; 2024 Levents. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="profile.js"></script>
+</body>
+</html>
